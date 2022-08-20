@@ -6,6 +6,7 @@
 - docker exec -it {container name} bash
 
 Уже внутри docker контейнера:
+- composer install
 - php artisan key:generate
 - php artisan migrate
 - php artisan queue:listen
